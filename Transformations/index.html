@@ -1,0 +1,28 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transformations</title>
+    <style>
+        .box {
+            width: 100px;
+            height: 100px;
+            background: violet;
+            transition: transform .5s ease-in-out;
+            /* transform: rotate(20deg); */
+            /* transform: translateX(10px) rotate(10deg) translateY(5px); */
+            /* transform: skew(30deg, 20deg); */
+        }
+
+        .box:hover {
+            transform: rotate(1turn) scale(.5, .5);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box"></div>
+</body>
+
+</html>

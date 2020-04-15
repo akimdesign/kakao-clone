@@ -1,0 +1,53 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animations</title>
+    <style>
+        .box {
+            font-size: 50px;
+            width: 100px;
+            height: 100px;
+            background: violet;
+            animation: 5s scaleAndRotateSquare infinite ease-in-out;
+            /*Only does it once unless infinite added*/
+
+        }
+
+        /* @keyframes identifier {
+
+        } */
+
+        @keyframes scaleAndRotateSquare {
+
+            /* from {
+                transform: none;
+            }
+
+            to {
+                transform: rotate(1turn) scale(.5, .5);
+            } */
+            0% {
+                transform: none;
+                color: tomato;
+            }
+
+            50% {
+                transform: rotate(1turn) scale(.5, .5);
+                color: white;
+            }
+
+            100% {
+                transform: none;
+                color: teal;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">11</div>
+</body>
+
+</html>
