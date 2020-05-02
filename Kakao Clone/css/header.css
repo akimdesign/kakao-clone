@@ -14,11 +14,13 @@
   font-size: 20px;
   margin-left: 20px;
   cursor: pointer;
+  color: #48b1bf;
 }
 
 .header .header__header-column {
   display: flex;
   align-items: center;
+  color: #48b1bf;
 }
 
 .header .header__back-btn {
